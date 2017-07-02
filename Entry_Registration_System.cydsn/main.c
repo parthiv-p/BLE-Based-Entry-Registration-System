@@ -286,7 +286,7 @@ void MembersPresent()
 {
 	int n = 0;
 	sprintf(buff,"Devices present for the Lecture are: ");
-	UART_PutString(buff);*/
+	UART_PutString(buff);
 	RPI_Write(1u); 
 	CyDelay(100);
 	for (n = 0; n < addedDevices; n++)
